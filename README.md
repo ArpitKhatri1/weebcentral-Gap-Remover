@@ -1,1 +1,1 @@
-Remove the gap between images in weebcentral.com 
+Removes the gap between images in weebcentral.com 
