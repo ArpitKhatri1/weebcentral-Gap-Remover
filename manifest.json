@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "weeb-central-gap-remover",
+  "version": "1.0",
+  "description": "Removes gaps between manga pages",
+  "permissions": ["scripting"],
+  "host_permissions": ["<all_urls>"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://weebcentral.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
